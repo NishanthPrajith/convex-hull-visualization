@@ -25,9 +25,4 @@ Note that the time complexitiy of each alogithms is based on the number of input
 >  
 > This alogrithm is very similar to the quicksort alogorithm and uses a divide and conquer approach for finding the convex hull. Althought, this alogirthm is quite efficient in cases of high symmetry it becomes very slow making it's time complexitity close to o(n^2)
 
-> ### Divide & Conquer  
-> Time Complexity : O(nlogn)  
->  
-> This alogrithm works by dividing the set of inputs into smaller and smaller inputs until the convex hull of that small input is easily calculated. Once that is complete, the alogrithm goes on to find the upper and lower tangents of the two newly found convex hulls, and uses the tangents to merge the two convex hulls together creating a new convex hull. This process continues until there is no more convex hull left to be merged.
-
 ###### *by Nishanth Prajith*
